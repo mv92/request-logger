@@ -11,7 +11,7 @@ const callback = (req, res) => {
 		body: req.body,
 	};
 
-	if (process.env.NODE_ENV === 'dev') {
+	if (process.env.NODE_ENV === 'dev' || process.env.RAILWAY_ENVIRONMENT === 'dev') {
 		responseObject = JSON.parse(JSON.stringify(req, getCircularReplacer()));
 
 		console.log(responseObject)
