@@ -1,0 +1,32 @@
+{
+  "name": "request-logger",
+  "version": "0.0.1",
+  "description": "A sample Node.js app that returns as JSON the data from the request and its body, if available",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.15.2",
+    "helmet": "^4.1.1",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mv92/request-logger"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
+}
