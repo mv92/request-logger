@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A sample Node.js app that returns as JSON the data from the request and its body, if available",
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "main": "index.js",
   "scripts": {
