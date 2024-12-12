@@ -7,9 +7,9 @@ require('dotenv').config();
 
 const {
 	PORT = 3000,
-	RAILWAY_ENVIRONMENT = 'production', // by default assume production
+	NODE_ENV = 'production', // by default assume production
 } = process.env;
-const isDev = RAILWAY_ENVIRONMENT === 'dev';
+const isDev = NODE_ENV === 'dev';
 
 // ERROR HANDLING
 const errorHandler = (err, req, res, next) => {
